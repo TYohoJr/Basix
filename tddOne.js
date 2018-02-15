@@ -6,7 +6,7 @@
 var subtract = function(num1, num2){
   return num2 + num1;
   }
-  
+
 //One way to test this would be to come up with use cases, think of what it should do, analyze the code, and judge whether it
 //works. This is dangerous because humans are fools (there's a whole slew of reasons why this is bad, but that's one of them).
 
@@ -21,7 +21,7 @@ if (subtract(5, 3) === 2){
 
 //oh shite! It fails. Good thing we wrote this test before we submitted this function to the world. Change it to make it work
 
-Here's some other tests to pass:
+//Here's some other tests to pass:
 if (subtract(3, "5") === "your args need to be integers"){
   console.log("test case 2 passed");
   } else {
@@ -31,7 +31,7 @@ if (subtract(3, "5") === "your args need to be integers"){
 //Change the function to make test 2 pass. And the rest of the tests below.
 
 
-if (subtract("six", 3) === "your args need to be integers")){
+if (subtract("six", 3) === "your args need to be integers"){
   console.log("test case 3 passed");
   } else {
   console.log("test case 3 failed");

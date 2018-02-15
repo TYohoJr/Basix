@@ -7,6 +7,9 @@ console.log(bananas(666, 777));
 console.log(bananas(1,0));
 //1
 
+function bananas(input1, input2){
+    return input1 + input2;
+}
 
 
 //write a new function (call it whatever you want) that accepts three arguments - a string, an int, and another int. 
