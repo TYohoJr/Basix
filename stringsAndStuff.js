@@ -3,7 +3,7 @@
 //here's a function called countLetters
 
 var countLetters = function(word){
-  
+  console.log(word.length);
   //write code inside these brackets that counts the number of letters in the word to make
   //the code below work
 }
